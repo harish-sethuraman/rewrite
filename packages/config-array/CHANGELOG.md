@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.17.0](https://github.com/harish-sethuraman/rewrite/compare/config-array-v0.16.0...config-array-v0.17.0) (2024-06-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Allow escaping characters on Windows ([#61](https://github.com/harish-sethuraman/rewrite/issues/61))
+* treat `*` as a universal pattern ([#50](https://github.com/harish-sethuraman/rewrite/issues/50))
+* Remove `ConfigArray#isExplicitMatch()` ([#53](https://github.com/harish-sethuraman/rewrite/issues/53))
+* add method `getConfigStatus`, update `isFileIgnored` ([#7](https://github.com/harish-sethuraman/rewrite/issues/7))
+
+### Features
+
+* Add config-array package ([4a2274d](https://github.com/harish-sethuraman/rewrite/commit/4a2274def58d1d41352b33f4e9c197d258fb5a36))
+* add method `getConfigStatus`, update `isFileIgnored` ([#7](https://github.com/harish-sethuraman/rewrite/issues/7)) ([400c5f9](https://github.com/harish-sethuraman/rewrite/commit/400c5f92b7370f8ab6efd1b8dcd90ac1c1d04dd4))
+* Add types to config-array ([#3](https://github.com/harish-sethuraman/rewrite/issues/3)) ([8b80e81](https://github.com/harish-sethuraman/rewrite/commit/8b80e81cd0613ef1eccd15eacc0dbfad7a689dbf))
+* Remove `ConfigArray#isExplicitMatch()` ([#53](https://github.com/harish-sethuraman/rewrite/issues/53)) ([10d8200](https://github.com/harish-sethuraman/rewrite/commit/10d8200fbc99ae4496fc308af82930bb41aeacfa))
+* sync packages meta ([#12](https://github.com/harish-sethuraman/rewrite/issues/12)) ([27fcd25](https://github.com/harish-sethuraman/rewrite/commit/27fcd259dab40e4ac1742b5699b74701a6b3660e))
+
+
+### Bug Fixes
+
+* Add 'main' and 'types' entries to package.json ([#48](https://github.com/harish-sethuraman/rewrite/issues/48)) ([16ee1fa](https://github.com/harish-sethuraman/rewrite/commit/16ee1fad998cc654208628ccb06958d29f95a3a5))
+* Allow escaping characters on Windows ([#61](https://github.com/harish-sethuraman/rewrite/issues/61)) ([8501890](https://github.com/harish-sethuraman/rewrite/commit/85018903815908bcfd940bbda347f3f17663e4bd))
+* ConfigObject type ([#27](https://github.com/harish-sethuraman/rewrite/issues/27)) ([e42b15d](https://github.com/harish-sethuraman/rewrite/commit/e42b15dc4a424030cac97582c0d500a76b13f328))
+* Include package.json ([ce52aaa](https://github.com/harish-sethuraman/rewrite/commit/ce52aaaec724ecf9dc9826efa680f6851b576357))
+* Minor change to trigger new releases ([#13](https://github.com/harish-sethuraman/rewrite/issues/13)) ([8184402](https://github.com/harish-sethuraman/rewrite/commit/8184402d5efc8028380cbdd5669f600aea5c050a))
+* npm and JSR package contents ([#16](https://github.com/harish-sethuraman/rewrite/issues/16)) ([3e9eb67](https://github.com/harish-sethuraman/rewrite/commit/3e9eb67964327ef908ab27fa0f14990580ec801c))
+* treat `*` as a universal pattern ([#50](https://github.com/harish-sethuraman/rewrite/issues/50)) ([79ad4bc](https://github.com/harish-sethuraman/rewrite/commit/79ad4bcd09f73e66168ee3936c3c260af2c9953a))
+* Update and standardize READMEs ([#33](https://github.com/harish-sethuraman/rewrite/issues/33)) ([75521f7](https://github.com/harish-sethuraman/rewrite/commit/75521f7d2e4aac9e77310803e7569d9d5b39869c))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @eslint/object-schema bumped from ^2.1.4 to ^2.2.0
+
 ## [0.16.0](https://github.com/eslint/rewrite/compare/config-array-v0.15.1...config-array-v0.16.0) (2024-06-12)
 
 

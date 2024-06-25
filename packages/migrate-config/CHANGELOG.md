@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.2.0](https://github.com/harish-sethuraman/rewrite/compare/migrate-config-v1.1.0...migrate-config-v1.2.0) (2024-06-25)
+
+
+### Features
+
+* Add --gitignore flag to read in .gitignore files ([#55](https://github.com/harish-sethuraman/rewrite/issues/55)) ([3d9f7ce](https://github.com/harish-sethuraman/rewrite/commit/3d9f7cedd9a2bfc9827fe338fa3b948a00cd088f))
+* Add includeIgnoreFile() method ([#47](https://github.com/harish-sethuraman/rewrite/issues/47)) ([b5f74ed](https://github.com/harish-sethuraman/rewrite/commit/b5f74ed7bf20f287cc88579f2c6d9a27943d1105))
+* Add migrate-config CLI tool ([#26](https://github.com/harish-sethuraman/rewrite/issues/26)) ([b16dd8d](https://github.com/harish-sethuraman/rewrite/commit/b16dd8d33f88618feafbedf2814ee6680cd1dcd9))
+
+
+### Bug Fixes
+
+* Wrap plugins that are wrapped in extends ([#37](https://github.com/harish-sethuraman/rewrite/issues/37)) ([6c73ed2](https://github.com/harish-sethuraman/rewrite/commit/6c73ed2351709c335fe4bd54f7e5b7ffce306446))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @eslint/compat bumped from ^1.1.0 to ^1.2.0
+
 ## [1.1.0](https://github.com/eslint/rewrite/compare/migrate-config-v1.0.1...migrate-config-v1.1.0) (2024-06-12)
 
 
